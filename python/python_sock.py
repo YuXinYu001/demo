@@ -5,9 +5,9 @@ import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-s.connect(('www.sina.com.cn', 80))
+s.connect(('14.215.177.38', 80))
 
-s.send(b'GET / HTTP/1.1\r\nHost: www.sina.com.cn\r\nConnection: close\r\n\r\n')
+s.send(b'GET / HTTP/1.1\r\nHost: www.baidu.com\r\nConnection: close\r\n\r\n')
 
 buffer = []
 
